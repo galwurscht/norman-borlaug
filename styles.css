@@ -1,0 +1,101 @@
+body {
+	margin: 60px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	height: 100%;
+}
+
+
+.container {
+	display: flex;
+	flex-direction: column;
+	background-color: #eee;}
+
+.container h1 {
+	font-size: 42px;
+	text-align: center;
+	margin: 10px;
+	font-weight: normal;
+}
+
+.container h2 {
+	font-size: 30px;
+	font-style: italic;
+	text-align: center;
+	font-weight: normal;
+	margin: 0px;
+}
+
+.photo {
+	width: 100%;
+	height: auto;
+	background-color: #eee;
+	margin-bottom: 0px;
+}
+
+
+.photo img {
+	width: 1022px;
+	height: auto;
+	border: 5px solid solid none solid blue;
+	margin-left: 50px;
+	margin-bottom: 0px;
+}
+	
+.photo2 {
+	background-color: white;
+	width: 1032px;
+	height: 50px;
+	margin-left: 45px;
+	margin-top: 0px;
+}
+
+#note {
+	text-align: center;
+	margin: 0px;
+	padding-top: 10px;
+	font-weight: normal;
+}
+
+.info {
+	margin-left: 220px;
+	margin-right: 220px;
+}
+
+.info p {
+	font-size: 26px;
+	font-weight: normal;
+}
+
+.info li {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#quote {
+	font-size: 22px;
+	text-align: justify;
+	margin-left: 20px;
+}
+
+#quoter {
+	font-size: 14px;
+	margin-left: 20px;
+}
+
+.wiki {
+	margin-left: 220px;
+	margin-right: 220px;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.foot {
+	font-size: 14px;
+	text-align: center;
+	background-color: white;
+}
+
+.foot p {
+	margin-top: 45px;
+	margin-bottom: -30px;
+}
